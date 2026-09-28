@@ -1,14 +1,14 @@
 
+import Navbar from "./components/Navbar/Navbar"
+import AppRoutes from "./routes/AppRoutes"
 
 function App() {
   return (
-    <main className="min-h-screen bg-slate-950 flex items-center justify-center">
-      <h1 className="text-4xl font-bold text-white">
-        CRM Sales
-      </h1>
-    </main>
+    <>
+      <Navbar />
+      <AppRoutes />
+    </>
   )
 }
-
 
 export default App
