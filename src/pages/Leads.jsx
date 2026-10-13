@@ -1,5 +1,5 @@
 function Leads() {
-  return <h1>Leads</h1>;
+  return null;
 }
 
 export default Leads;
